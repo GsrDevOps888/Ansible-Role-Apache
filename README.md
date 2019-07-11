@@ -1,13 +1,16 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Installs and configures APACHE server on CentOS/Ubuntu servers.
 
 Requirements
 ------------
 
 Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
 
+- RAM = 2GB
+- HDD = 10 GB
+ 
 Role Variables
 --------------
 
