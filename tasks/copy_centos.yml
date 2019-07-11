@@ -1,0 +1,5 @@
+---
+ - name: Copy the file to Apapche Destination for CentOS
+   copy: src=index.html dest=/var/www/html/
+   notify:
+    - restart centos apache

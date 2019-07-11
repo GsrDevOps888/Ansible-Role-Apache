@@ -1,0 +1,5 @@
+---
+ - name: Copy the file to Apapche Destination for Ubuntu
+   copy: src=index.html dest=/var/apache2/html/
+   notify:
+    - restart ubuntu apache

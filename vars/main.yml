@@ -1,0 +1,4 @@
+---
+# vars file for Apache
+ package_centos: httpd, nginx
+ package_ubuntu: apache2

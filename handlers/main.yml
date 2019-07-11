@@ -1,0 +1,7 @@
+---
+# handlers file for Apache
+ - name: restart centos apache
+   service: name={{ package_centos }} state=restarted
+
+ - name: restart ubuntu apache
+   service: name={{ package_ubuntu }} state=restarted
